@@ -62,9 +62,9 @@ void handleFlameSignal(void) {
     if (!fire_sms) {
       fire_sms = true;
 
-      call("+2348142151880");
+      call("+234XXXXXXXX"); // add number to call here, include international dialing code
       Serial.println ("Call made successfully");
-      sendSMS("+2348142151880", "FIRE ALERT,\nURGENT: Fire reported at Radiance High School: https://maps.app.goo.gl/uK1AxtS4tDk8PfYbA.");
+      sendSMS("+234XXXXXXXX", "FIRE ALERT,\nURGENT: Fire reported at Radiance High School: https://maps.app.goo.gl/uK1AxtS4tDk8PfYbA."); // add number to text here, include international dialing code
       Serial.println("SMS sent successfully");
     }
     else {
@@ -118,9 +118,9 @@ void handleWaterSignal(void) {
 
 
       if (waterDetectedTime >= smsThreshholdTime && !water_sms) {
-        call("+2348142151880");
+        call("+234XXXXXXXX");  // add number to call here, include international dialing code
         Serial.println ("Call made successfully");
-        sendSMS("+2348142151880", "FLOOD ALERT,\n\nURGENT: Rising water levels detected at Radiance High School: https://maps.app.goo.gl/uK1AxtS4tDk8PfYbA.");
+        sendSMS("+234XXXXXXXX", "FLOOD ALERT,\n\nURGENT: Rising water levels detected at Radiance High School: https://maps.app.goo.gl/uK1AxtS4tDk8PfYbA."); // add number to text here, include international dialing code
         Serial.println("SMS sent successfully");
         water_sms = true;
       }
@@ -131,7 +131,7 @@ void handleWaterSignal(void) {
     else {
       // water_detected == LOW
       Serial.println("water level dropped");
-      water_sms = false;
+     water_sms = false;
       if (waterDetectedTime >= smsThreshholdTime) {
         is_waterDetected = false;
         Serial.println("Time up for duplicate water checks ");

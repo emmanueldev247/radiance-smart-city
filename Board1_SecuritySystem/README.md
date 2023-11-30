@@ -31,14 +31,29 @@ The access cards, defined in the code, are used for controlling valid access. Ma
 ## Usage
 
 1. Adjust configurations in the code if necessary, such as RFID card IDs.
-2. Upload the [`Code File`](./Board1_SecuritySystem.ino) to your Arduino board.
-2. Upload the `Board1_SecuritySystem.ino` code to your Arduino board.
+2. Upload the [`Board1_SecuritySystem.ino`](./Board1_SecuritySystem.ino) code to your Arduino board.
 3. Connect the components as specified in the connections section.
 4. Power on the system and test the RFID access control and manual remote control features.
 
-Refer to the code file for detailed comments and configuration instructions.
+> Refer to the [code file](./Board1_SecuritySystem.ino) for detailed comments and configuration instructions.
 
 ## Contributing
 
 Feel free to contribute to the enhancement of the security system by creating issues, submitting feature requests, or opening pull requests.
 
+## Authors
+
+<details>
+    <summary>Emmanuel Ademola</summary>
+    <ul>
+    <li><a href="https://www.github.com/emmanueldev247">Github</a></li>
+    <li><a href="https://www.twitter.com/emmanueldev247">Twitter</a></li>
+    <li><a href="mailto:mailemmydee@gmail.com">e-mail</a></li>
+    </ul>
+</details>
+<details>
+    <summary>Emeka Amah</summary>
+    <ul>
+    <li><a href="patnet84@gmail.com">e-mail</a></li>
+    </ul>
+</details>

@@ -29,7 +29,7 @@ Welcome to the Radiance Smart City project repository. This real estate solution
 - **A Comprehensive Community Hub**.
    - Order groceries, generate visitor codes, and report incidents seamlessly.
    - Contact security, report crimes, or emergencies for a safer and more connected community.
-   - Our Web App is live at [Radiance Smart City Web App](https://radiancesmartcity.free.nf).
+   - Our Web App (demo) is live at [Radiance Smart City Web App](https://radiancesmartcity.free.nf).
 
 ## Code Structure
 
@@ -58,7 +58,7 @@ Feel free to explore the documentation for each board to understand their featur
 
 ## How to Use
 
-1. Clone the repository: `https://github.com/emmanueldev247/Radiance-Smart-City.git`
+1. Clone the repository: `git clone https://github.com/emmanueldev247/Radiance-Smart-City.git`
 2. Ensure the required libraries (e.g., MFRC522, Servo, IRremote) are installed.
 3. Follow the instructions in each board's README for uploading the respective code and setting up the connections.
 

@@ -1,12 +1,11 @@
-# Radiance Smart City 2.0
+# Radiance Smart City
 
-Welcome to the Radiance Smart City 2.0 project repository. This real estate solution integrates cutting-edge technology to enhance security, energy efficiency, and emergency response systems.
+Welcome to the Radiance Smart City project repository. This real estate solution integrates cutting-edge technology to enhance security, energy efficiency, and emergency response systems.
 
 ## Features
 
 ### 1. Security
-
-- **Boom Barrier System**: A sophisticated security measure using RFID technology. Access is granted only to valid cardholders, and the boom barrier can be controlled by security personnel using remotes.
+- **Boom Barrier System**: A sophisticated security measure using RFID technology. Access is granted only to valid cardholders, and the boom barrier can be controlled by security personnels using remotes.
 
 ### 2. Energy Savings
 
@@ -23,6 +22,12 @@ Welcome to the Radiance Smart City 2.0 project repository. This real estate solu
 ### 4. Smart Bridge
 
 - **Flood Response**: In case of a flood, the bridge is automatically raised using servo motors to a safe level.
+
+### 5. Project Web App
+- **A Comprehensive Community Hub**.
+   - Order groceries, generate visitor codes, and report incidents seamlessly.
+   - Contact security, report crimes, or emergencies for a safer and more connected community.
+   - Our Web App is live at [Radiance Smart City Web App](https://radiancesmartcity.free.nf).
 
 ## Code Structure
 

@@ -58,7 +58,7 @@ Feel free to explore the documentation for each board to understand their featur
 
 ## How to Use
 
-1. Clone the repository: `git clone https://github.com/your-username/Radiance-Smart-City-2.0.git`
+1. Clone the repository: `https://github.com/emmanueldev247/Radiance-Smart-City.git`
 2. Ensure the required libraries (e.g., MFRC522, Servo, IRremote) are installed.
 3. Follow the instructions in each board's README for uploading the respective code and setting up the connections.
 

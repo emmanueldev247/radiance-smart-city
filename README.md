@@ -82,6 +82,6 @@ Contribute to the improvement of Radiance Smart City by creating issues, suggest
 <details>
     <summary>Emeka Amah</summary>
     <ul>
-    <li><a href="patnet84@gmail.com">e-mail</a></li>
+    <li><a href="mailto:patnet84@gmail.com">e-mail</a></li>
     </ul>
 </details>

@@ -38,8 +38,9 @@ The project consists of three boards, each with its specific functionality:
 ### Board 1: Security System
 
 - **Directory**: `Board1_SecuritySystem`
+- [**Directory**](./Board1_RFID_SecuritySystem/): `Board1_SecuritySystem`
 - [**Code File**](./Board1_RFID_SecuritySystem/Board1_SecuritySystem.ino): `Board1_SecuritySystem.ino`
-- [**Documentation**](./Board1_RFID_SecuritySystem/README.md)
+- [**Documentation**](./Board1_RFID_SecuritySystem/README.md): `README.md`
 
 
 ### Board 2: Energy Control and Emergency Alerts

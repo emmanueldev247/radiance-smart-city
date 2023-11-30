@@ -59,20 +59,29 @@ Feel free to explore the documentation for each board to understand their featur
 ## How to Use
 
 1. Clone the repository: `git clone https://github.com/your-username/Radiance-Smart-City-2.0.git`
-2. Upload the respective code files to each Arduino board.
-3. Ensure the required libraries (e.g., MFRC522, Servo, IRremote) are installed.
+2. Ensure the required libraries (e.g., MFRC522, Servo, IRremote) are installed.
+3. Follow the instructions in each board's README for uploading the respective code and setting up the connections.
 
-## Board-specific Instructions
-
-- **Board 1**: Connect RFID, LEDs, and Servo as per the defined pins.
-- **Board 2**: Connect IR receiver, LDR, and LEDs as specified.
-- **Board 3**: Connect Servos, flame, and water sensors according to the defined pins.
-
-Refer to the individual code files for detailed comments and configuration instructions.
 
 ## Contributing
 
-Feel free to contribute to the project by creating issues, submitting feature requests, or opening pull requests.
+Contribute to the improvement of Radiance Smart City by creating issues, suggesting new features, or opening pull requests.
 
-Enjoy building a smarter and safer city with Radiance Smart City 2.0!
+> Enjoy building a smarter and safer city with Radiance Smart City!
 
+## Authors
+
+<details>
+    <summary>Emmanuel Ademola</summary>
+    <ul>
+    <li><a href="https://www.github.com/emmanueldev247">Github</a></li>
+    <li><a href="https://www.twitter.com/emmanueldev247">Twitter</a></li>
+    <li><a href="mailto:mailemmydee@gmail.com">e-mail</a></li>
+    </ul>
+</details>
+<details>
+    <summary>Emeka Amah</summary>
+    <ul>
+    <li><a href="patnet84@gmail.com">e-mail</a></li>
+    </ul>
+</details>

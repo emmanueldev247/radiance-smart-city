@@ -37,28 +37,24 @@ The project consists of three boards, each with its specific functionality:
 
 ### Board 1: Security System
 
-- **Directory**: `Board1_SecuritySystem`
-- [**Directory**](./Board1_RFID_SecuritySystem/): `Board1_SecuritySystem`
+- [**Directory**](./Board1_RFID_SecuritySystem): `Board1_SecuritySystem`
 - [**Code File**](./Board1_RFID_SecuritySystem/Board1_SecuritySystem.ino): `Board1_SecuritySystem.ino`
 - [**Documentation**](./Board1_RFID_SecuritySystem/README.md): `README.md`
 
 
 ### Board 2: Energy Control and Emergency Alerts
 
-- **Directory**: `Board2_EnergyEmergency`
-- **Code File**: `Board2_EnergyEmergency.ino`
+- [**Directory**](./Board2_EnergyEmergency): `Board2_EnergyEmergency`
+- [**Code File**](./Board2_EnergyEmergency/Board2_EnergyEmergency.ino): `Board2_EnergyEmergency.ino`
+- [**Documentation**](./Board2_EnergyEmergency/Board2_EnergyEmergency/README.md): `README.md`
 
 ### Board 3: Smart Bridge and Emergency Communication
 
-- **Directory**: `Board3_SmartBridge_SMS`
-- **Code File**: `Board3_SmartBridge_SMS.ino`
+- [**Directory**](./Board3_SmartBridge_SMS): `Board3_SmartBridge_SMS`
+- [**Code File**](./Board3_SmartBridge_SMS/Board3_SmartBridge_SMS.ino): `Board3_SmartBridge_SMS.ino`
+- [**Documentation**](./BBoard3_SmartBridge_SMS/README.md): `README.md`
 
 Feel free to explore the documentation for each board to understand their features, use cases, and implementation details. If you have any questions or need further assistance, don't hesitate to reach out. Happy exploring!
-
-## Board-Specific READMEs
-
-2. [Board 2 - Energy Savings and Alarms](./Board2_EnergySavings_Alarms/README.md)
-3. [Board 3 - Smart Bridge Control and Emergency Communication](./Board3_SmartBridge_SMS/README.md)
 
 ## How to Use
 

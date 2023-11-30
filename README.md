@@ -5,6 +5,7 @@ Welcome to the Radiance Smart City project repository. This real estate solution
 ## Features
 
 ### 1. Security
+
 - **Boom Barrier System**: A sophisticated security measure using RFID technology. Access is granted only to valid cardholders, and the boom barrier can be controlled by security personnels using remotes.
 
 ### 2. Energy Savings
@@ -24,6 +25,7 @@ Welcome to the Radiance Smart City project repository. This real estate solution
 - **Flood Response**: In case of a flood, the bridge is automatically raised using servo motors to a safe level.
 
 ### 5. Project Web App
+
 - **A Comprehensive Community Hub**.
    - Order groceries, generate visitor codes, and report incidents seamlessly.
    - Contact security, report crimes, or emergencies for a safer and more connected community.
@@ -37,6 +39,8 @@ The project consists of three boards, each with its specific functionality:
 
 - **Directory**: `Board1_SecuritySystem`
 - **Code File**: `Board1_SecuritySystem.ino`
+- [**Documentation**](./Board1_RFID_SecuritySystem/README.md).
+
 
 ### Board 2: Energy Control and Emergency Alerts
 
@@ -47,6 +51,13 @@ The project consists of three boards, each with its specific functionality:
 
 - **Directory**: `Board3_SmartBridge_SMS`
 - **Code File**: `Board3_SmartBridge_SMS.ino`
+
+Feel free to explore the documentation for each board to understand their features, use cases, and implementation details. If you have any questions or need further assistance, don't hesitate to reach out. Happy exploring!
+
+## Board-Specific READMEs
+
+2. [Board 2 - Energy Savings and Alarms](./Board2_EnergySavings_Alarms/README.md)
+3. [Board 3 - Smart Bridge Control and Emergency Communication](./Board3_SmartBridge_SMS/README.md)
 
 ## How to Use
 

@@ -46,7 +46,7 @@ The project consists of three boards, each with its specific functionality:
 
 - [**Directory**](./Board2_EnergyEmergency): `Board2_EnergyEmergency`
 - [**Code File**](./Board2_EnergyEmergency/Board2_EnergyEmergency.ino): `Board2_EnergyEmergency.ino`
-- [**Documentation**](./Board2_EnergyEmergency/Board2_EnergyEmergency/README.md): `README.md`
+- [**Documentation**](./Board2_EnergyEmergency/README.md): `README.md`
 
 ### Board 3: Smart Bridge and Emergency Communication
 

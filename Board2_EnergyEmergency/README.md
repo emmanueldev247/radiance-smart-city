@@ -8,6 +8,7 @@ This board focuses on energy efficiency and environmental monitoring within the 
 - **LDR (Light Dependent Resistor)**: Connected to pin `A0`.
 - **Water Level Sensor**: Connected to pin `A1`.
 - **Street Light LEDs**: Connected to pin `SLledPin (8)`.
+- **Residential Blocks Light LEDs**: Connected to pins: `block1LEDPin (A2)`,  `block2LEDPin (A3)`,  `block3LEDPin (A4)`,  `block4LEDPin (A5)`.
 - **Gate Control Pin (from Board 1 - Remote Signal Pin)**: Connected to pin `controlgate (4)`.
 - **Alarm System, LEDs and Buzzer**:
   - **Fire Alarm**:
@@ -23,14 +24,14 @@ This board focuses on energy efficiency and environmental monitoring within the 
 
 ## LDR (Light Dependent Resistor) Mode and Remote Control
 
-- **LDR Mode**: The street lights (SLledPin (8)) are controlled based on ambient light conditions using the LDR sensor (ldrPin (A0)). Adjust the `LDR_LOW_LIMIT` value to fine-tune the sensitivity of the LDR to achieve optimal performance in various lighting environments.
+- **LDR Mode**: The street lights are controlled based on ambient light conditions using the LDR sensor. Adjust the `LDR_LOW_LIMIT` value to fine-tune the sensitivity of the LDR to achieve optimal performance in various lighting environments.
 - **Remote Control**: Aside the gate operation, the IR remote allows manual control of street lights and residential blocks lights.
   - **Street light control**: When the switch mode button is pressed, it switches the mode from automatic mode to manual mode. In the manual mode, a pressed power button turns the light on/off. The switch mode button needs to be pressed to switch the mode back to automatic mode.
-  - **Residential blocks light control**: When the appropriate button is pressed, it triggers the various block LED pin (A2, A3, A4, A5). This turns the lights on/off.
+  - **Residential blocks light control**: When the appropriate button is pressed, it triggers the various block LED pin. This turns the respective lights on/off.
 
 ## Fire and Water Alarm System Operation
-- Fire Alarm System: The fire sensor (flameInPin (7)) constantly monitor the environment for potential fire incidents.
-- Water Alarm System: The water level sensor (waterInPin (A1)) actively gauges water levels.
+- Fire Alarm System: The fire sensor constantly monitor the environment for potential fire incidents.
+- Water Alarm System: The water level sensor actively gauges water levels.
 - Both systems, integrates visual indicators to signal detection, ensuring a visual distinction. In conjunction with the visual indicators, an alarm is employed to provide an audible alert during critical situations.
 
 > For detailed connections, refer to the [**Circuit Diagram**](../RSC-circuit-diagram.jpg).

@@ -52,7 +52,7 @@ The project consists of three boards, each with its specific functionality:
 
 - [**Directory**](./Board3_SmartBridge_SMS): `Board3_SmartBridge_SMS`
 - [**Code File**](./Board3_SmartBridge_SMS/Board3_SmartBridge_SMS.ino): `Board3_SmartBridge_SMS.ino`
-- [**Documentation**](./BBoard3_SmartBridge_SMS/README.md): `README.md`
+- [**Documentation**](./Board3_SmartBridge_SMS/README.md): `README.md`
 
 Feel free to explore the documentation for each board to understand their features, use cases, and implementation details. If you have any questions or need further assistance, don't hesitate to reach out. Happy exploring!
 

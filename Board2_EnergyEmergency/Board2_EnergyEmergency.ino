@@ -6,7 +6,6 @@ IRrecv IR(6);
 const int controlgate = 4;
 const int SLledPin = 8; // Street Light Led Pin
 const int ldrPin = A0;
-const int waterInPin = A1;
 
 int ldrStatus = 0;
 int ldr_mode = 1; // 1 - LDR mode (default) ;  0 - remote mode
@@ -17,13 +16,6 @@ int block1LEDPin[] = {A2, 1}; // BLOCK 1 LEDs
 int block2LEDPin[] = {A3, 1}; // BLOCK 2 LEDs
 int block3LEDPin[] = {A4, 1}; // BLOCK 3 LEDs
 int block4LEDPin[] = {A5, 1}; // BLOCK 4 LEDs
-
-const int alarmBuzzerPin  = 11; // buzzer pin to Board 3
-const int fireRedLedPin = 13; // red led for fire alarm
-const int fireGreenLedPin = 12;
-const int waterRedLedPin = 3; //for water alarm led
-const int waterGreenLedPin = 2;
-
 
 unsigned long smsThreshholdTime = 10000; // threshhold for non-stop SMS
 
@@ -38,8 +30,15 @@ unsigned long previousFireTime = 0;
 unsigned long fireDetectedTime = 0;
 bool smsSentFire = false;
 
+const int waterInPin = A1;
 const int waterOutPin = 9;
 int waterLevel;
+
+const int alarmBuzzerPin  = 11; // buzzer pin to Board 3
+const int fireRedLedPin = 13; // red led for fire alarm
+const int fireGreenLedPin = 12;
+const int waterRedLedPin = 3; //for water alarm led
+const int waterGreenLedPin = 2;
 
 void setup() {
   // setting pin modes

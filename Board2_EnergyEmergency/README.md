@@ -1,6 +1,6 @@
 # Board 2: Energy Management and Environmental Monitoring
 
-This board focuses on energy efficiency and environmental monitoring within the Radiance Smart City project. It manages street lighting based on ambient light conditions, allows manual control via remote, and monitors fire and flood situations.
+This board focuses on energy efficiency and environmental monitoring within the Radiance Smart City project. It manages street lighting based on ambient light conditions, allows manual control via remote, remote functions, and monitors fire and flood situations.
 
 ## Connections
 
@@ -14,8 +14,8 @@ This board focuses on energy efficiency and environmental monitoring within the 
     - Fire Sensor: Connected to pin `flameInPin (7)`.
     - Fire Red LED: Connected to pin `fireRedLedPin (13)`. Indicates fire detection.
     - Fire Green LED: Connected to pin `fireGreenLedPin (12)`. Indicates no fire.
-    - Water Level Sensor: Connected to pin `waterInPin (A1)`.
   - **Water Alarm**:
+    - Water Level Sensor: Connected to pin `waterInPin (A1)`.
     - Water Red LED: Connected to pin `waterRedLedPin (3)`. Indicates rising water levels.
     - Water Green LED: Connected to pin `waterGreenLedPin (2)`. Indicates safe water levels.
   - Buzzer: Connected to pin `alarmBuzzerPin (11)`.
@@ -23,13 +23,14 @@ This board focuses on energy efficiency and environmental monitoring within the 
 
 ## LDR (Light Dependent Resistor) Mode and Remote Control
 
-- LDR Mode: The street lights are controlled based on ambient light conditions using the LDR sensor.
-- Remote Control: The IR remote allows manual control of street lights and gate (lockdown & open/close)
-
+- **LDR Mode**: The street lights (SLledPin (8)) are controlled based on ambient light conditions using the LDR sensor (ldrPin (A0)). Adjust the `LDR_LOW_LIMIT` value to fine-tune the sensitivity of the LDR to achieve optimal performance in various lighting environments.
+- **Remote Control**: Aside the gate operation, the IR remote allows manual control of street lights and residential blocks lights.
+  - **Street light control**: When the switch mode button is pressed, it switches the mode from automatic mode to manual mode. In the manual mode, a pressed power button turns the light on/off. The switch mode button needs to be pressed to switch the mode back to automatic mode.
+  - **Residential blocks light control**: When the appropriate button is pressed, it triggers the various block LED pin (A2, A3, A4, A5). This turns the lights on/off.
 
 ## Fire and Water Alarm System Operation
-- Fire Alarm System: The fire sensor constantly monitor the environment for potential fire incidents.
-- Water Alarm System: The water level sensor actively gauges water levels.
+- Fire Alarm System: The fire sensor (flameInPin (7)) constantly monitor the environment for potential fire incidents.
+- Water Alarm System: The water level sensor (waterInPin (A1)) actively gauges water levels.
 - Both systems, integrates visual indicators to signal detection, ensuring a visual distinction. In conjunction with the visual indicators, an alarm is employed to provide an audible alert during critical situations.
 
 > For detailed connections, refer to the [**Circuit Diagram**](../RSC-circuit-diagram.jpg).
@@ -37,11 +38,11 @@ This board focuses on energy efficiency and environmental monitoring within the 
 ## Usage
 
 1. Adjust configurations in the code if necessary.
-2. Upload the [**Board2_EnergyManagement.ino**](./Board2_EnergyManagement.ino) code to your Arduino board.
+2. Upload the [**Board2_EnergyEmergency.ino**](./Board2_EnergyEmergency.ino) code to your Arduino board.
 3. Connect the components as specified in the connections section.
-4. Power on the system and test the LDR-based street light control, remote functions, and fire/water alarm systems.
+4. Power on the system and test the LDR-based street light control, remote functions and fire/water alarm systems.
 
-> Refer to the [code file](./Board2_EnergyManagement.ino) for detailed comments and configuration instructions.
+> Refer to the [code file](./Board2_EnergyEmergency.ino) for detailed comments and configuration instructions.
 
 ## Contributing
 

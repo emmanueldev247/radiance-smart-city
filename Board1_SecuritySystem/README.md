@@ -28,6 +28,12 @@ This board is responsible for implementing the security features of the Radiance
 
 The access cards, defined in the code, are used for controlling valid access. Make sure to update the `residentCards` array with the appropriate RFID card IDs.
 
+## Remote Control Functionality
+
+**Gate Control**: The remote facilitates the opening and closing of the gate. When the appropriate button is pressed, it triggers the gate control pin from board 2 (controlgate (4)) which then sends a signal to board 1 (REMOTE_SIGNAL_PIN (4)), ensuring seamless access.
+
+**Lockdown Mode Activation**:  The remote is equipped with a unique functionality — activating a lockdown mode. When the appropriate button is pressed, it triggers the gate lockdown pin from board 2 (gateLockdownPin (5)) which then sends a signal to board 1 (LOCK_DOWN_PIN (2)) to activate the lockdown mode. During lockdown, access card functionality is temporarily disabled, preventing entry using RFID access cards. In this mode, the gate can only be operated using the remote, adding an extra layer of security. Once the security concern is resolved, the lockdown can be lifted. After lifting the lockdown, RFID access cards regain their functionality, and gate control returns to normal, allowing both remote and access cards for operation.
+
 ## Usage
 
 1. Adjust configurations in the code if necessary, such as RFID card IDs.

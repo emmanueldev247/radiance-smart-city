@@ -18,7 +18,7 @@ This board is responsible for implementing the security features of the Radiance
 
 - **Remote Signal Pin (from Board 2 - Gate Control Pin)**: Connected to pin `REMOTE_SIGNAL_PIN (4)`.
 
-- **Lock Down Pin (from Board 2)**: Connected to pin `LOCK_DOWN_PIN (2)`.
+- **Remote Lockdown Pin (from Board 2 - Gate Lockdown Pin)**: Connected to pin `LOCK_DOWN_PIN (2)`.
 
 - NB: all negative (-ve/GND) wires are connected to GND.
 

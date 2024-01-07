@@ -31,6 +31,8 @@ Welcome to the Radiance Smart City project repository. This real estate solution
    - Contact security, report crimes, or emergencies for a safer and more connected community.
    - Our Web App (demo) is live at [Radiance Smart City Web App](https://radiancesmartcity.free.nf).
 
+> The components used for this project is listed [**here**](./components.md): `components.md`
+
 ## Code Structure
 
 The project consists of three boards, each with its specific functionality:

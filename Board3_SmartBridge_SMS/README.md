@@ -18,7 +18,7 @@ Board 3 is responsible for the control of the smart bridge in case of flooding, 
 
 - NB: all negative (-ve/GND) wires are connected to GND.
 
-> For detailed connections, refer to the [**Circuit Diagram**](../RSC-circuit-diagram.jpg).
+> For detailed connections, refer to the [**Circuit Diagram**](../radiance-smart-city-circuit-diagram.jpg).
 
 ## Smart Bridge Control
 
@@ -56,12 +56,13 @@ Contribute to the improvement of the smart bridge and emergency communication by
     <ul>
     <li><a href="https://www.github.com/emmanueldev247">Github</a></li>
     <li><a href="https://www.twitter.com/emmanueldev247">Twitter</a></li>
-    <li><a href="mailto:mailemmydee@gmail.com">e-mail</a></li>
+    <li><a href="mailto:mailemmydee@gmail.com">E-mail</a></li>
+    <li><a href="https://emmanueldev247.publicvm.com">Portfolio</a></li>
     </ul>
 </details>
 <details>
     <summary>Emeka Amah</summary>
     <ul>
-    <li><a href="mailto:patnet84@gmail.com">e-mail</a></li>
+    <li><a href="mailto:patnet84@gmail.com">E-mail</a></li>
     </ul>
 </details>

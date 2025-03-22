@@ -8,7 +8,7 @@
 4. **Breadboard:** 1 unit
 5. **IR Receiver:** 1 unit
 6. **Servo Motor:** 3 units
-7. **Jumper Cables:** 10+ units (M-M. M-F, F-F)
+7. **Jumper Cables:** 10+ units (M-M, M-F, F-F)
 9. **LDR:** 1 unit
 10. **RFID Reader:** 1 unit
 11. **RFID Key Chain:** 2 units
@@ -24,4 +24,3 @@
 
 **Estimated Project Cost: $150**
 > Calculated using `08-01-2024` exchange rate NGN->USD
-

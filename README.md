@@ -29,7 +29,6 @@ Welcome to the Radiance Smart City project repository. This real estate solution
 - **A Comprehensive Community Hub**.
    - Order groceries, generate visitor codes, and report incidents seamlessly.
    - Contact security, report crimes, or emergencies for a safer and more connected community.
-   - Our Web App (demo) is live at [Radiance Smart City Web App](https://radiancesmartcity.free.nf).
 
 > The components used for this project are listed [**here**](./components.md): `components.md`
 
@@ -78,12 +77,13 @@ Contribute to the improvement of Radiance Smart City by creating issues, suggest
     <ul>
     <li><a href="https://www.github.com/emmanueldev247">Github</a></li>
     <li><a href="https://www.twitter.com/emmanueldev247">Twitter</a></li>
-    <li><a href="mailto:mailemmydee@gmail.com">e-mail</a></li>
+    <li><a href="mailto:mailemmydee@gmail.com">E-mail</a></li>
+    <li><a href="https://emmanueldev247.publicvm.com">Portfolio</a></li>
     </ul>
 </details>
 <details>
     <summary>Emeka Amah</summary>
     <ul>
-    <li><a href="mailto:patnet84@gmail.com">e-mail</a></li>
+    <li><a href="mailto:patnet84@gmail.com">E-mail</a></li>
     </ul>
 </details>

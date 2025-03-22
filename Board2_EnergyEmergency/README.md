@@ -35,7 +35,7 @@ This board focuses on energy efficiency and environmental monitoring within the 
 
 - NB: all negative (-ve/GND) wires are connected to GND.
 
-> For detailed connections, refer to the [**Circuit Diagram**](../RSC-circuit-diagram.jpg).
+> For detailed connections, refer to the [**Circuit Diagram**](../radiance-smart-city-circuit-diagram.jpg).
 
 ## LDR (Light Dependent Resistor) Mode and Remote Control
 
@@ -72,12 +72,13 @@ Feel free to contribute to the enhancement of the security system by creating is
     <ul>
     <li><a href="https://www.github.com/emmanueldev247">Github</a></li>
     <li><a href="https://www.twitter.com/emmanueldev247">Twitter</a></li>
-    <li><a href="mailto:mailemmydee@gmail.com">e-mail</a></li>
+    <li><a href="mailto:mailemmydee@gmail.com">E-mail</a></li>
+    <li><a href="https://emmanueldev247.publicvm.com">Portfolio</a></li>
     </ul>
 </details>
 <details>
     <summary>Emeka Amah</summary>
     <ul>
-    <li><a href="mailto:patnet84@gmail.com">e-mail</a></li>
+    <li><a href="mailto:patnet84@gmail.com">E-mail</a></li>
     </ul>
 </details>
